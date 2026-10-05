@@ -18,7 +18,7 @@ src/
     CameraLockRuntime.lua  the camera behaviour (ModuleScript)
 ```
 
-The layout is Rojo-compatible: `rojo build -o build/CameraLockGenerator.rbxm`
+The layout uses Rojo, so you'll need that installed: `rojo build -o build/CameraLockGenerator.rbxm`
 rebuilds the plugin from `src/`.
 
 ## Installing the plugin
