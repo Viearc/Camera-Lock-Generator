@@ -14,7 +14,6 @@ src/
   Templates/CameraLock/
     init.client.lua        the LocalScript that gets installed (reads its attributes)
     CameraLockRuntime.lua  the camera behaviour (ModuleScript)
-build/CameraLockGenerator.rbxm  prebuilt plugin
 ```
 
 The layout is Rojo-compatible: `rojo build -o build/CameraLockGenerator.rbxm`
@@ -22,10 +21,8 @@ rebuilds the plugin from `src/`.
 
 ## Installing the plugin
 
-Copy `build/CameraLockGenerator.rbxm` into Studio's local plugins folder
+Copy the `CameraLockGenerator.rbxm` you built with Rojo into Studio's local plugins folder
 (Plugins tab > Plugins Folder; on macOS `~/Documents/Roblox/Plugins`).
-Alternatively, right-click the `CameraLockGenerator` folder in Studio and choose
-**Save as Local Plugin**.
 
 The first time you click Install, Studio may ask you to allow script injection.
 That's needed to add the LocalScript to your place.
