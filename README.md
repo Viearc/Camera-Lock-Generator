@@ -1,7 +1,9 @@
-# Camera Lock Generator (v0.0.1)
+# Camera Lock Generator
 
 A Roblox Studio plugin that configures the camera lock system and installs it
 into `StarterPlayer.StarterCharacterScripts`.
+
+I made it with the help of Claude.
 
 ## Layout
 
