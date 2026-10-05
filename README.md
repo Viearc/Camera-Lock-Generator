@@ -54,9 +54,4 @@ restored when you unlock.
 
 The plugin's toolbar button uses the same shift-lock icon.
 
-Every action is a single undo step. The plugin refuses to run during a playtest,
-and it warns if it finds other camera lock scripts that would fight over the camera.
-
-Settings are attributes on the installed `CameraLock` script, so you can also
-edit them in the Properties window. Editing the copy inside your character
-during a playtest retunes it live.
+The plugin refuses to run during a playtest.
