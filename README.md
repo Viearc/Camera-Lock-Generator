@@ -18,8 +18,8 @@ src/
     CameraLockRuntime.lua  the camera behaviour (ModuleScript)
 ```
 
-The layout uses Rojo, so you'll need that installed: `rojo build -o build/CameraLockGenerator.rbxm`
-rebuilds the plugin from `src/`.
+The layout uses Rojo, so you'll need that installed,
+use the `rojo build -o build/CameraLockGenerator.rbxm` command in VSCode to build the plugin from the `src/` folder.
 
 ## Installing the plugin
 
